@@ -1,0 +1,5 @@
+a = int(input('Digite um valor:'))
+b = pow(a,2)
+c = pow(a,3)
+d = a**(1/2)
+print('O dobro do valor é {} sendo triplo {} e sua raiz quadrada {:.3f}!'.format(b,c,d))
